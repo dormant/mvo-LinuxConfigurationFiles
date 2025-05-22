@@ -1,0 +1,5 @@
+//172.17.102.66/Seismic_Data /mnt/mvofls2/Seismic_Data cifs auto,,user=seisan,password=mont-serrat,uid=seisan,gid=users,domain=MVO,noperm,vers=3.0,_netdev 0 0
+//172.17.102.62/monitoring_data /mnt/earthworm3/monitoring_data cifs defaults,user=seisan,password=mont-serrat,vers=2.0,uid=1003,gid=1003,_netdev 0	0
+//172.20.0.53/Imagery_Data /mnt/mvofls3/Imagery_Data 	cifs	defaults,credentials=/home/seisan/.smbcredentials_mvofls3_rod,uid=1003,gid=1003 0	0
+# Temp space for seismic
+//172.17.131.3/MVOSeisD6 /mnt/mvohvs3/MVOSeisD6 cifs auto,,user=seisan,password=mont-serrat,uid=seisan,gid=users,domain=MVO,noperm,vers=3.0,_netdev 0 0

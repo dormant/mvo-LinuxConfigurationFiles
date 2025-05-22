@@ -1,0 +1,23 @@
+sudo cpanm Xxx::Yyy
+sudo cpanm --uninstall Xxx::Yyy
+sudo cpan Xxx::Yxx
+DON'T INSTALL in ~/perl5
+
+Bundle::CPAN
+List::Uniq
+Time::Elapse (needs --force)
+DateTime
+DateTime::Format::Excel
+Spreadsheet::Read
+Spreadsheet::ParseExcel
+Spreadsheet::XLSX
+Perl::Tidy
+Getopt::Long
+DateTime::Format::ISO8601
+Video::Info
+Array::Utils
+HTTP::BrowserDetect
+Image::Size
+Time::DaysInMonth
+Time::timegm
+File::Tee

@@ -1,0 +1,31 @@
+Host webobs
+    Hostname webobs.mvo.ms
+    User webobs
+    IdentityFile ~/.ssh/id_rsa
+
+Host webobs2winston1
+	Hostname 172.17.102.60
+    User wwsuser
+    ProxyJump webobs
+
+Host webobs2opsproc3
+	Hostname 172.17.102.13
+    User seisan
+    ProxyJump webobs
+
+Host w2w1
+	Hostname 172.17.102.60
+    User wwsuser
+    ProxyJump webobs
+
+Host w2o3
+	Hostname 172.17.102.13
+    User seisan
+    ProxyJump webobs
+    ForwardX11 yes
+    forwardX11Trusted yes
+
+ServerAliveInterval 60
+ServerAliveCountMax 120
+
+

@@ -1,0 +1,36 @@
+# .bashrc
+#
+# For both MVO linux machine
+#
+# Rod Stewart, 2021-06-04
+
+# set aliases
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+
+export PATH
+
+# Set editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
+# Prompt
+PS1="\u@\h\\$ "
+
+# Directory in title of xterm
+case $TERM in
+	xterm*)
+		PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: $(basename ${PWD})\007"'
+            ;;
+        *)
+            ;;
+	esac
+
+~                                                           

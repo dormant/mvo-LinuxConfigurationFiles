@@ -1,0 +1,116 @@
+# .bash_aliases
+#
+# Rod Stewart, 2024-07-10
+
+# common things
+alias a='alias'
+alias h='history'
+alias hi='history'
+alias j='jobs -l'
+alias du='du -h'
+alias df='df -kh'
+alias quit=exit
+alias ffeh='feh -F'
+alias killlsof="lsof -a +L1 | grep (deleted) | grep -v Chrome | grep -v mozilla | awk '{print $2}' | sort -nu | xargs kill -1"
+
+# ls
+alias ll='ls -alF'
+alias l='ls -CF'
+alias lk='ls -lSr'              # sort by size
+alias la='ls -Al'               # show hidden files
+alias lr='ls -lR'               # recursicv ls
+alias lt='ls -ltr'              # sort by date
+alias lm='ls -al |more'         # pipe through 'more'
+#alias ls='ls -hF --color'       # add colors for filetype recognition
+alias lx='ls -lXB'              # sort by extension
+
+# enable color support of some commands
+#alias ls='ls --color=auto'
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+# nicely formatted PATH
+alias path='echo -e ${PATH//:/\\n}'
+
+# CPAN
+alias pcpan="sudo -H cpan -i"
+
+# Count all files in a directory tree
+alias countFiles='find . -type f | wc -l'
+
+# Julian day of year for today
+alias jday='date +%j'
+
+# MATLAB inside shell, no X display
+alias matlab_nox='matlab -nosplash -nodisplay'
+
+# Imagemagick convert all xpm to png
+alias xpm2png='mogrify -format png -- *.xpm'
+
+# Activate and deactivate obspy
+alias obspy='conda activate obspy'
+alias nobspy='conda deactivate'
+
+# SAC
+alias sac='"${SACHOME}/bin/sac" "${SACHOME}/macros/init.m"'
+
+# jrdseed
+alias jrdseed='java -Xmx1024m -jar /home/seisan/software/jrdseed/JrdseedVer0.10.1.jar'
+
+# SEISAN
+alias gmap='gmap -highaccuracy'
+
+alias xpm2png='mogrify -format png -- *.xpm'
+
+# convert images
+alias png2jpg='mogrify -format jpg -- *.png'
+alias webp2jpg='mogrify -format jpg -- *.webp'
+alias avif2jpg='for image in *.avif ;  do convert "$image" "${image%.*}.jpg" ; done'
+
+# Change extensions to lower case
+#alias extlc=$'find . -name '*.*' -exec sh -c '  a=$(echo "$0" | sed -r "s/([^.]*)\$/\L\1/");  [ "$a" != "$0" ] && mv "$0" "$a" ' {} \;'
+
+# Change jpegs to jpgs
+alias jpeg2jpg="rename 's/jpeg/jpg/g' *.jpeg"
+
+# Adds .jpg to end of files
+alias filesAddJpg="rename 's/$/.jpg/g' *"
+
+# Lazy ssh shortcuts
+alias sop2='ssh -XC seisan@opsproc2'
+alias sop3='ssh -XC seisan@opsproc3'
+alias sor3='ssh -XC seisan@opsrm03'
+alias sor4='ssh -XC seisan@opsrm04'
+alias sor5='ssh -XC seisan@opsrm05'
+alias sor6='ssh -XC seisan@opsrm06'
+alias sso='ssh -XC webobs2opsproc3'
+alias ssw1='ssh -XC webobs2winston1'
+alias ssw2='ssh -XC webobs2winston2'
+alias ssw='ssh -XC webobs'
+
+# Lazy cd shortcuts
+alias cdsd='cd ${HOME}/STUFF/projectsMVO/SeismicityDiary'
+alias cdrf='cd ${HOME}/STUFF/projectsMVO/Seismicity/rockfalls'
+alias cdvtst='cd ${HOME}/STUFF/projectsMVO/Seismicity/VT_strings'
+
+
+# No idea where this comes from
+# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+# For MVO
+alias fe='fetch_events'
+alias fe0='fetch_events.1.pl'
+alias fens='fetch_events_noshow'
+
+# ssh X forwarding
+alias sshx='ssh -X'
+
+# cat syslog
+alias csyslog='cat /var/log/syslog'
+    
+

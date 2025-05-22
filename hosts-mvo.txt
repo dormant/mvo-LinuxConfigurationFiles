@@ -1,0 +1,45 @@
+170.20.0.14	earthworm01
+172.17.117.1	webobs  we
+172.17.102.61	earthworm02 ew2
+172.17.102.11	opsproc1    op1
+172.17.102.12	opsproc2    op2
+172.17.102.13	opsproc3    op3
+172.17.102.21	mbfl
+172.17.102.27	mbly
+172.17.102.30	spiderbox1	sp1
+172.17.102.62	earthworm03	ew3
+172.17.102.63	mvoscream2  sc2
+172.17.102.64	mvoscream3  sc3
+172.17.116.1	volcano01   vo1
+172.20.0.47	mvoweb1
+172.17.109.13	mvofls1
+172.17.102.66	mvofls2
+172.17.103.1	mvofls3
+172.17.131.3	mvohvs3
+172.17.102.68	mvocobweb1
+172.20.0.155	seis-display
+172.20.0.162	seismologists-imac
+172.17.102.1	opsrm01 or1
+172.17.102.2	opsrm02 or2
+172.17.102.3	opsrm03 or3
+172.17.102.4	opsrm04 or4
+172.17.102.5	opsrm05 or5
+172.17.102.6	opsrm06 or6
+172.17.102.60	winston1    wi1
+172.17.102.65	winston2    wi2
+172.17.103.10	mvot
+172.17.103.11	gari
+172.17.103.12	ferg
+172.17.102.52   rodsmacpro
+172.17.102.20	mbby
+172.17.102.21	mbfl
+172.17.102.22	mbfr
+172.17.102.23	mbgb
+172.17.102.24	mbgh
+172.30.0.79	mblg
+172.17.102.27	mbly
+172.30.0.12	mbha
+172.17.102.31	mbrv
+172.30.0.11	mbry
+172.17.102.29	mbwh
+

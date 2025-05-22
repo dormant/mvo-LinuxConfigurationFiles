@@ -1,0 +1,19 @@
+# .bash_profile
+#
+# For both Linux and MacOS
+#
+# Rod Stewart, 2020-09-01
+
+# if running bash
+if [ -n "$BASH_VERSION" ]; then
+    # include .bashrc if it exists
+    if [ -f "$HOME/.bashrc" ]; then
+	. "$HOME/.bashrc"
+    fi
+fi
+
+mac
+export SAC_HOME=$HOME/software/sac
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-15.jdk/Contents/Home
+perl
+export PATH

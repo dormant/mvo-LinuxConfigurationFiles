@@ -1,0 +1,11 @@
+$ pip install <>
+
+openpyxl
+pandas
+xlrd
+autopep8
+pyside6
+librosa
+geopy
+Cython
+seaborn

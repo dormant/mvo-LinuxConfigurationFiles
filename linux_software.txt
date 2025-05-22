@@ -1,0 +1,168 @@
+HafEvo
+
+gimp
+google chrome browser (flatpak)
+google earth (from deb file, not from flatpak)
+mpv
+octave
+vlc
+
+openblender benchmark
+https://opendata.blender.org/
+
+jdownloader 2
+install from website: https://jdownloader.org/download/index
+
+virtualbox
+https://www.virtualbox.org/wiki/Linux_Downloads
+
+appimage packages
+- download and make executable and run
+soulseekqt
+
+flatpack
+MusicBrainz Picard
+
+snap - sudo snap install xxxxx
+aacgain
+
+---------------------------------
+
+github-desktop
+from deb or add repo
+
+activestate perl
+
+anaconda
+https://docs.anaconda.com/anaconda/install/linux/
+$ conda config --add channels conda-forge
+$ conda create -n obspy python=3.8 obspy cartopy pytest pytest-json
+$ conda install obspy
+
+discovery (Guralp)
+had to install Qt 5.12 manually
+
+anydesk
+https://unixcop.com/how-to-install-anydesk-on-ubuntu-linux-mint/
+
+gmt
+build from source - the apt packages didn't seem to work
+
+eGPU switcher
+https://egpu.io/forums/thunderbolt-linux-setup/ubuntu-19-04-easy-to-use-setup-script-for-your-egpu/
+
+vidcutter
+sudo add-apt-repository ppa:ozmartian/apps
+sudo apt update
+sudo apt install vidcutter
+
+
+audacity
+use software manager gui
+
+audio-recorder
+https://launchpad.net/~audio-recorder/+archive/ubuntu/ppa
+
+digikam
+https://launchpad.net/~savoury1/+archive/ubuntu/digikam
+
+yEd
+downloaded install script
+
+psensor (graph temperatures)
+https://phoenixnap.com/kb/linux-cpu-temp
+
+geekbench
+
+ksar (plot sysstat)
+https://www.howtoforge.com/install-and-configure-sar-and-ksar-for-daily-monitoring-on-linux-and-generate-pdf-reports/
+
+DirSyncPro (sync directories)
+https://www.dirsyncpro.org/index.html
+cross-platform
+
+onedrive
+https://github.com/abraunegg/onedrive/blob/master/docs/ubuntu-package-install.md
+OneDrive service running as a non-root user via systemd (All Linux Distributions)
+https://www.linuxuprising.com/2020/02/how-to-keep-onedrive-in-sync-with.html
+$ systemctl --user status onedrive
+
+Plex Meta Manager
+https://metamanager.wiki/en/latest/home/guides/local.html
+
+wordpress
+https://community.linuxmint.com/tutorial/view/828
+
+okulus
+
+dropbox
+https://www.dropbox.com/install-linux
+
+
+GPSBabel
+https://www.gpsbabel.org/
+problems with libusb on Linux, so
+$ qmake WITH_LIBUSB=no
+
+VueScan
+https://www.hamrick.com/
+
+realVNC viewer
+https://www.realvnc.com/en/connect/download/viewer/
+
+Visual Studio Code
+https://code.visualstudio.com/docs/?dv=linux64_deb
+
+ltunify
+https://lekensteyn.nl/logitech-unifying.html
+
+solaar
+https://pwr-solaar.github.io/Solaar/
+
+
+pulseaudio equalizer
+https://linuxhint.com/install-pulseaudio-equalizer-linux-mint/
+
+kdenlive
+https://linuxhint.com/install-kdenlive-linux-mint/
+
+Master PDF Editor
+https://code-industry.net/masterpdfeditor-help/install-master-pdf-editor-on-linux/
+Doesn't work, needs libQt_5.15 (have 5.12)
+
+tightvncserver
+
+videodownloadhelper co-app (Chrome extension)
+
+upscayl
+from package manager
+https://www.reallinuxuser.com/how-to-use-the-ai-image-upscaling-app-upscayl-on-linux/
+
+ffmpeg-concat DOESN'T INSTALL
+$ sudo npm install --save ffmpeg-concat
+(requires nodejs and npm packages installed)
+
+snap
+https://snapcraft.io/docs/installing-snap-on-linux-mint
+taup
+icloud-for-linux
+jabref
+mysql-workbench-community
+dbeaver-ce
+inkscape
+mp3gain
+soulseek
+plex-desktop
+whatsdesk
+
+docker
+video2x
+
+appimage packages
+- download and make executable and run
+digikam - doesn't work because of database priv
+etcher - make bootable USBs
+openshot - more recent than in repos
+upscayl - image enhancer
+
+
