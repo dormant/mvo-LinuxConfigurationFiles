@@ -56,7 +56,6 @@ Here are some non-obvious aliases that I find useful.
 | git3 | I can never remember the third command when updating a git repository.|
 | killlsof | Kill select processes with open files.|
 | matlabNoX | Run *MATLAB* with no gui.|
-| mseedInfo | List information for all *\*.mseed* files in current directory.|
 
 
 ## Author
