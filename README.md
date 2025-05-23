@@ -46,6 +46,19 @@ Save as *~/.ssh/config* on a remote computer to allow tunnel access over *ssh*.
 
 Save as *~/.vumrc*.
 
+## Aliases
+
+Here are some non-obvious aliases that I find useful.
+
+| alias | Purpose |
+| ----- | ------- |
+| jday | Get day number for today.|
+| git3 | I can never remember the third command when updating a git repository.|
+| killlsof | Kill select processes with open files.|
+| matlabNoX | Run *MATLAB* with no gui.|
+| mseedInfo | List information for all *\*.mseed* files in current directory.|
+
+
 ## Author
 
 Roderick Stewart, Dormant Services Ltd

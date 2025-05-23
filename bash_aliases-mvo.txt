@@ -113,4 +113,5 @@ alias sshx='ssh -X'
 # cat syslog
 alias csyslog='cat /var/log/syslog'
     
-
+# python
+alias mseedInfo='obspy; python3 -m obspy.io.mseed.scripts.recordanalyzer *.mseed; nobspy'

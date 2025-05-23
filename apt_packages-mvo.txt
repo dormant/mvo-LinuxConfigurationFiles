@@ -35,6 +35,7 @@ mariadb-client
 mmv
 mtools
 neofetch
+nmap
 ntp
 octave
 openjdk-21-jdk
